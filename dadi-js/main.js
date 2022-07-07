@@ -7,18 +7,21 @@ console.log (numeroComputer)
 const listaComputer = ['1', '2', '3', '4', '5', '6' ]
 console.log (listaComputer)
 
+let Vinto = 'Computer'
+
 for ( let i = 0; i < 6 ; i++) {
 
 if (numeroGiocatore > numeroComputer) {
+    let Vinto = 'Tu'
+    console.log (Vinto)
     alert ('Hai vinto tu!')
-} else {
-    alert ('Ha vinto il  Coputer!')
+} 
 }
 
-if (numeroGiocatore == numeroComputer) {
-     alert ('Avete pareggiato!')
+if (Vinto != 'Tu') {
+    alert ('Avete pareggiato!')
 }
-}
+
 
 
 
